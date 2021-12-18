@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenPop.NET" Version="2.0.6.1120" />
+  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\EmployeeContacts.Data\EmployeeContacts.Data.csproj" />
+	</ItemGroup>
+
+</Project>
